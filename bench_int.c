@@ -10,7 +10,7 @@ int main() {
 	int **b;
 	int **c;
 	int i, j, k;
-	int size = 1000;
+	int size = 5000;
 	
 	a = malloc(sizeof(int*)*size);
 	b = malloc(sizeof(int*)*size);
@@ -36,19 +36,19 @@ int main() {
 	}
 
 	//printf("terminou de criar\n");
-	int mult_num = 3;//numero de vezes a realizar multiplicacao
+	int mult_num = 10;//numero de vezes a realizar multiplicacao
 	int cur_mult = 0;
-	while(cur_mult < mult_num) {
-		for(i=0; i<size; i++) {
-			for(j=0; j<size; j++) {
-				for(k=0; k<size; k++) {
-					//printf("%d %d", i, j);
-					c[i][j] += a[i][k] * b[k][j]; 
-				}
+	//while(cur_mult < mult_num) {
+	for(i=0; i<size; i++) {
+		for(j=0; j<size; j++) {
+			for(k=0; k<size; k++) {
+				//printf("%d %d", i, j);
+				c[i][j] += a[i][k] * b[k][j]; 
 			}
 		}
-		cur_mult++;
 	}
+	//	cur_mult++;
+	//}
 
 	free(a);
 	free(b);
