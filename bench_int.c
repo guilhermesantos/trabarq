@@ -2,16 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-
 int main() {
-
-
 	int **a;
 	int **b;
 	int **c;
 	int i, j, k;
-	int size = 5000;
-	
+	int size = 1000;
+
 	a = malloc(sizeof(int*)*size);
 	b = malloc(sizeof(int*)*size);
 	c = malloc(sizeof(int*)*size);

@@ -56,13 +56,13 @@ int main() {
     //No final do loop, pede para o usuario digitar 1 para continuar executando
     //ou 0 para parar, e coloca na variavel 'executando'. se 'executando' for zero, o programa
     //acaba
-    int executando = 1;
-    while(executando) {
+    //int executando = 1;
+    //while(executando) {
         //Le o numero de componentes de cada vetor
-        printf("digite a quantidade de componentes dos vetores: ");
-        scanf("%d", &qtd_variaveis);
-        printf("\n");
-
+        //printf("digite a quantidade de componentes dos vetores: ");
+        //scanf("%d", &qtd_variaveis);
+        //printf("\n");
+        qtd_variaveis = 5;
         //Le elemento por elemento da matriz, e imprime a matriz resultante no final
         matriz = le_matriz(qtd_variaveis, qtd_variaveis);
         printf("\nMatriz original: \n");
@@ -95,9 +95,9 @@ int main() {
             printf("]\n");
         }
         //Permite que o usuario execute novamente ou encerre o programa
-        printf("executar novamente? 0/1: ");
-        scanf("%d", &executando);
-    }
+        //printf("executar novamente? 0/1: ");
+        //scanf("%d", &executando);
+    //}
     return 0;
 }
 
@@ -237,12 +237,17 @@ double **le_matriz(int linhas, int colunas) {
     int i, j;
     double **matriz = malloc(sizeof(double*)*linhas);
     int coordenada_v = 1;
+    double value = 1.5;
+    srandom(time(NULL));
+
 
     for(i=0; i < linhas; i++) {
         matriz[i] = malloc(sizeof(double)*(colunas+1));
         for(j=0; j < colunas; j++) {
             printf("[%d][%d]: ", i, j);
-            scanf("%lf", &matriz[i][j]);
+            //scanf("%lf", &matriz[i][j]);
+            matriz[i][j] = value;
+            value += rand() ;
         }
         matriz[i][colunas] = coordenada_v;
         coordenada_v++;
