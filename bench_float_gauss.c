@@ -62,42 +62,43 @@ int main() {
         //printf("digite a quantidade de componentes dos vetores: ");
         //scanf("%d", &qtd_variaveis);
         //printf("\n");
-        qtd_variaveis = 5;
+        qtd_variaveis = 850;
         //Le elemento por elemento da matriz, e imprime a matriz resultante no final
         matriz = le_matriz(qtd_variaveis, qtd_variaveis);
-        printf("\nMatriz original: \n");
-        imprime_matriz(matriz, qtd_variaveis, qtd_variaveis);
-        printf("\n");
+        //f("\nMatriz original: \n");
+        //imprime_matriz(matriz, qtd_variaveis, qtd_variaveis);
+        //f("\n");
 
         //Escalona a matriz
         triangula_matriz(matriz, qtd_variaveis, qtd_variaveis, &qtd_trocas_de_linha);
 
-        printf("\nMatriz escalonada: \n");
-        imprime_matriz(matriz, qtd_variaveis, qtd_variaveis);
+        //f("\nMatriz escalonada: \n");
+        //imprime_matriz(matriz, qtd_variaveis, qtd_variaveis);
 
         //Calcula o determinante da matriz
         determinante = calcula_determinante(matriz, qtd_variaveis, qtd_trocas_de_linha);
-        printf("\nDeterminante: %.5lf\n", determinante);
+        //f("\nDeterminante: %.5lf\n", determinante);
 
         //Com o determinante calculado, especifica se os vetores sao LI ou LD
         if(determinante == 0.0f) {
-            printf("Os vetores sao linearmente dependentes\n");
+            //f("Os vetores sao linearmente dependentes\n");
         } else {
             //Se forem LI, calcula os escalares para fazer com que a combinacao linear
             //dos vetores resulte no vetor V=(1,2,3,...,n)
-            printf("Os vetores sao linearmente independentes\n");
+            //f("Os vetores sao linearmente independentes\n");
             double *resultado = calcula_resultado_sistema(matriz, qtd_variaveis, qtd_variaveis+1);
             int i;
-            printf("Solucao: [");
+            //f("Solucao: [");
             for(i=0; i < qtd_variaveis; i++) {
-                printf("%.4lf ", resultado[i]);
+                //f("%.4lf ", resultado[i]);
             }
-            printf("]\n");
+            //f("]\n");
         }
         //Permite que o usuario execute novamente ou encerre o programa
         //printf("executar novamente? 0/1: ");
         //scanf("%d", &executando);
     //}
+    free(matriz);
     return 0;
 }
 
@@ -244,7 +245,7 @@ double **le_matriz(int linhas, int colunas) {
     for(i=0; i < linhas; i++) {
         matriz[i] = malloc(sizeof(double)*(colunas+1));
         for(j=0; j < colunas; j++) {
-            printf("[%d][%d]: ", i, j);
+            //f("[%d][%d]: ", i, j);
             //scanf("%lf", &matriz[i][j]);
             matriz[i][j] = value;
             value += rand() ;

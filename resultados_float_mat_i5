@@ -1,4 +1,4 @@
-//Resultados do benchmark de matrizes float no core I5 7300HQ
+//Resultados do benchmark_float_mat no core I5 7300HQ
 //Dados: matrizes float de ordem 1000
 //operacoes: multiplicacao e adição
 
