@@ -1,140 +1,180 @@
 
  Performance counter stats for './bench_float_mat':
 
-       9901,575957      task-clock (msec)         #    1,000 CPUs utilized          
-                 7      context-switches          #    0,001 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-             5.924      page-faults               #    0,598 K/sec                  
-    24.696.322.892      cycles                    #    2,494 GHz                    
-    50.082.887.314      instructions              #    2,03  insn per cycle         
-     1.008.913.129      branches                  #  101,894 M/sec                  
-         1.066.053      branch-misses             #    0,11% of all branches        
+      10103,939896      task-clock (msec)         #    1,000 CPUs utilized          
+                14      context-switches          #    0,001 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             5.924      page-faults               #    0,586 K/sec                  
+    25.200.950.093      cycles                    #    2,494 GHz                    
+    50.083.360.269      instructions              #    1,99  insn per cycle         
+     1.008.998.367      branches                  #   99,862 M/sec                  
+         1.071.453      branch-misses             #    0,11% of all branches        
+    22.032.462.153      L1-dcache-loads           # 2180,581 M/sec                  
+     1.402.566.622      L1-dcache-load-misses     #    6,37% of all L1-dcache hits  
+       165.541.529      LLC-loads                 #   16,384 M/sec                  
+        27.794.795      LLC-load-misses           #   16,79% of all LL-cache hits   
 
-       9,901908925 seconds time elapsed
-
-
- Performance counter stats for './bench_float_mat':
-
-       9871,755035      task-clock (msec)         #    1,000 CPUs utilized          
-                 9      context-switches          #    0,001 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-             5.923      page-faults               #    0,600 K/sec                  
-    24.621.938.552      cycles                    #    2,494 GHz                    
-    50.082.808.498      instructions              #    2,03  insn per cycle         
-     1.008.894.026      branches                  #  102,200 M/sec                  
-         1.063.987      branch-misses             #    0,11% of all branches        
-
-       9,872116445 seconds time elapsed
+      10,104396613 seconds time elapsed
 
 
  Performance counter stats for './bench_float_mat':
 
-       9881,443558      task-clock (msec)         #    1,000 CPUs utilized          
-                 4      context-switches          #    0,000 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-             5.923      page-faults               #    0,599 K/sec                  
-    24.646.131.089      cycles                    #    2,494 GHz                    
-    50.082.971.058      instructions              #    2,03  insn per cycle         
-     1.008.943.148      branches                  #  102,105 M/sec                  
-         1.062.257      branch-misses             #    0,11% of all branches        
-
-       9,881717702 seconds time elapsed
-
-
- Performance counter stats for './bench_float_mat':
-
-      10047,519374      task-clock (msec)         #    1,000 CPUs utilized          
+      10544,514881      task-clock (msec)         #    1,000 CPUs utilized          
                  6      context-switches          #    0,001 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-             5.925      page-faults               #    0,590 K/sec                  
-    25.060.342.087      cycles                    #    2,494 GHz                    
-    50.083.019.018      instructions              #    2,00  insn per cycle         
-     1.008.930.947      branches                  #  100,416 M/sec                  
-         1.064.160      branch-misses             #    0,11% of all branches        
+             5.925      page-faults               #    0,562 K/sec                  
+    26.299.915.102      cycles                    #    2,494 GHz                    
+    50.083.594.993      instructions              #    1,90  insn per cycle         
+     1.009.036.797      branches                  #   95,693 M/sec                  
+         1.063.623      branch-misses             #    0,11% of all branches        
+    22.032.539.222      L1-dcache-loads           # 2089,479 M/sec                  
+     1.376.322.345      L1-dcache-load-misses     #    6,25% of all L1-dcache hits  
+       156.614.129      LLC-loads                 #   14,853 M/sec                  
+        36.199.408      LLC-load-misses           #   23,11% of all LL-cache hits   
 
-      10,047818699 seconds time elapsed
+      10,544839174 seconds time elapsed
 
 
  Performance counter stats for './bench_float_mat':
 
-       9804,398970      task-clock (msec)         #    1,000 CPUs utilized          
+       9880,766887      task-clock (msec)         #    1,000 CPUs utilized          
+                14      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             5.925      page-faults               #    0,600 K/sec                  
+    24.644.322.827      cycles                    #    2,494 GHz                    
+    50.082.861.676      instructions              #    2,03  insn per cycle         
+     1.008.906.100      branches                  #  102,108 M/sec                  
+         1.071.088      branch-misses             #    0,11% of all branches        
+    22.032.312.356      L1-dcache-loads           # 2229,818 M/sec                  
+     1.387.676.547      L1-dcache-load-misses     #    6,30% of all L1-dcache hits  
+       149.624.015      LLC-loads                 #   15,143 M/sec                  
+        25.808.628      LLC-load-misses           #   17,25% of all LL-cache hits   
+
+       9,881225322 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_mat':
+
+      10004,146755      task-clock (msec)         #    1,000 CPUs utilized          
+                 6      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             5.926      page-faults               #    0,592 K/sec                  
+    24.952.136.361      cycles                    #    2,494 GHz                    
+    50.083.126.792      instructions              #    2,01  insn per cycle         
+     1.008.971.070      branches                  #  100,855 M/sec                  
+         1.068.822      branch-misses             #    0,11% of all branches        
+    22.032.396.570      L1-dcache-loads           # 2202,326 M/sec                  
+     1.401.692.070      L1-dcache-load-misses     #    6,36% of all L1-dcache hits  
+       167.671.708      LLC-loads                 #   16,760 M/sec                  
+        26.744.777      LLC-load-misses           #   15,95% of all LL-cache hits   
+
+      10,004475538 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_mat':
+
+      10015,263635      task-clock (msec)         #    1,000 CPUs utilized          
                 12      context-switches          #    0,001 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-             5.923      page-faults               #    0,604 K/sec                  
-    24.453.917.669      cycles                    #    2,494 GHz                    
-    50.082.834.779      instructions              #    2,05  insn per cycle         
-     1.008.900.991      branches                  #  102,903 M/sec                  
-         1.071.700      branch-misses             #    0,11% of all branches        
+             5.924      page-faults               #    0,591 K/sec                  
+    24.979.805.001      cycles                    #    2,494 GHz                    
+    50.083.094.834      instructions              #    2,00  insn per cycle         
+     1.008.944.420      branches                  #  100,741 M/sec                  
+         1.065.338      branch-misses             #    0,11% of all branches        
+    22.032.382.377      L1-dcache-loads           # 2199,880 M/sec                  
+     1.409.306.829      L1-dcache-load-misses     #    6,40% of all L1-dcache hits  
+       151.579.875      LLC-loads                 #   15,135 M/sec                  
+        27.573.653      LLC-load-misses           #   18,19% of all LL-cache hits   
 
-       9,804746001 seconds time elapsed
+      10,015653628 seconds time elapsed
 
 
  Performance counter stats for './bench_float_mat':
 
-       9805,590974      task-clock (msec)         #    1,000 CPUs utilized          
+       9701,643023      task-clock (msec)         #    1,000 CPUs utilized          
                  5      context-switches          #    0,001 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-             5.925      page-faults               #    0,604 K/sec                  
-    24.456.911.936      cycles                    #    2,494 GHz                    
-    50.082.878.506      instructions              #    2,05  insn per cycle         
-     1.008.927.253      branches                  #  102,893 M/sec                  
-         1.063.496      branch-misses             #    0,11% of all branches        
+             5.925      page-faults               #    0,611 K/sec                  
+    24.197.643.705      cycles                    #    2,494 GHz                    
+    50.082.667.179      instructions              #    2,07  insn per cycle         
+     1.008.874.561      branches                  #  103,990 M/sec                  
+         1.062.816      branch-misses             #    0,11% of all branches        
+    22.032.250.115      L1-dcache-loads           # 2270,981 M/sec                  
+     1.355.086.351      L1-dcache-load-misses     #    6,15% of all L1-dcache hits  
+       144.402.690      LLC-loads                 #   14,884 M/sec                  
+        25.050.023      LLC-load-misses           #   17,35% of all LL-cache hits   
 
-       9,805880788 seconds time elapsed
-
-
- Performance counter stats for './bench_float_mat':
-
-      10316,111748      task-clock (msec)         #    1,000 CPUs utilized          
-                 6      context-switches          #    0,001 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-             5.925      page-faults               #    0,574 K/sec                  
-    25.730.262.812      cycles                    #    2,494 GHz                    
-    50.083.372.402      instructions              #    1,95  insn per cycle         
-     1.008.998.783      branches                  #   97,808 M/sec                  
-         1.069.788      branch-misses             #    0,11% of all branches        
-
-      10,316410738 seconds time elapsed
+       9,701958052 seconds time elapsed
 
 
  Performance counter stats for './bench_float_mat':
 
-      10123,937758      task-clock (msec)         #    1,000 CPUs utilized          
-                 7      context-switches          #    0,001 K/sec                  
+      10248,226757      task-clock (msec)         #    1,000 CPUs utilized          
+                16      context-switches          #    0,002 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-             5.925      page-faults               #    0,585 K/sec                  
-    25.250.911.649      cycles                    #    2,494 GHz                    
-    50.083.033.812      instructions              #    1,98  insn per cycle         
-     1.008.927.958      branches                  #   99,658 M/sec                  
-         1.066.487      branch-misses             #    0,11% of all branches        
+             5.924      page-faults               #    0,578 K/sec                  
+    25.560.814.983      cycles                    #    2,494 GHz                    
+    50.083.250.298      instructions              #    1,96  insn per cycle         
+     1.008.967.509      branches                  #   98,453 M/sec                  
+         1.071.250      branch-misses             #    0,11% of all branches        
+    22.032.429.212      L1-dcache-loads           # 2149,877 M/sec                  
+     1.393.136.782      L1-dcache-load-misses     #    6,32% of all L1-dcache hits  
+       158.460.046      LLC-loads                 #   15,462 M/sec                  
+        31.238.148      LLC-load-misses           #   19,71% of all LL-cache hits   
 
-      10,124258089 seconds time elapsed
+      10,248726185 seconds time elapsed
 
 
  Performance counter stats for './bench_float_mat':
 
-       9965,352569      task-clock (msec)         #    1,000 CPUs utilized          
-                13      context-switches          #    0,001 K/sec                  
+      10298,335059      task-clock (msec)         #    1,000 CPUs utilized          
+                 5      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-             5.923      page-faults               #    0,594 K/sec                  
-    24.855.359.184      cycles                    #    2,494 GHz                    
-    50.083.037.613      instructions              #    2,01  insn per cycle         
-     1.008.946.004      branches                  #  101,245 M/sec                  
-         1.065.307      branch-misses             #    0,11% of all branches        
+             5.922      page-faults               #    0,575 K/sec                  
+    25.685.905.747      cycles                    #    2,494 GHz                    
+    50.083.254.746      instructions              #    1,95  insn per cycle         
+     1.008.967.020      branches                  #   97,974 M/sec                  
+         1.066.517      branch-misses             #    0,11% of all branches        
+    22.032.433.224      L1-dcache-loads           # 2139,417 M/sec                  
+     1.401.455.132      L1-dcache-load-misses     #    6,36% of all L1-dcache hits  
+       170.379.323      LLC-loads                 #   16,544 M/sec                  
+        29.990.026      LLC-load-misses           #   17,60% of all LL-cache hits   
 
-       9,965731056 seconds time elapsed
+      10,298636594 seconds time elapsed
 
 
  Performance counter stats for './bench_float_mat':
 
-       9877,120665      task-clock (msec)         #    1,000 CPUs utilized          
-                 6      context-switches          #    0,001 K/sec                  
+      10390,277186      task-clock (msec)         #    1,000 CPUs utilized          
+                 5      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-             5.924      page-faults               #    0,600 K/sec                  
-    24.635.338.942      cycles                    #    2,494 GHz                    
-    50.082.800.727      instructions              #    2,03  insn per cycle         
-     1.008.892.992      branches                  #  102,144 M/sec                  
-         1.062.412      branch-misses             #    0,11% of all branches        
+             5.925      page-faults               #    0,570 K/sec                  
+    25.915.226.012      cycles                    #    2,494 GHz                    
+    50.083.364.378      instructions              #    1,93  insn per cycle         
+     1.008.990.235      branches                  #   97,109 M/sec                  
+         1.064.980      branch-misses             #    0,11% of all branches        
+    22.032.466.915      L1-dcache-loads           # 2120,489 M/sec                  
+     1.395.807.030      L1-dcache-load-misses     #    6,34% of all L1-dcache hits  
+       167.903.375      LLC-loads                 #   16,160 M/sec                  
+        32.193.357      LLC-load-misses           #   19,17% of all LL-cache hits   
 
-       9,877423517 seconds time elapsed
+      10,390588743 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_mat':
+
+       9681,944089      task-clock (msec)         #    1,000 CPUs utilized          
+                 9      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             5.923      page-faults               #    0,612 K/sec                  
+    24.148.466.227      cycles                    #    2,494 GHz                    
+    50.082.688.775      instructions              #    2,07  insn per cycle         
+     1.008.879.005      branches                  #  104,202 M/sec                  
+         1.064.838      branch-misses             #    0,11% of all branches        
+    22.032.251.523      L1-dcache-loads           # 2275,602 M/sec                  
+     1.359.338.936      L1-dcache-load-misses     #    6,17% of all L1-dcache hits  
+       135.536.367      LLC-loads                 #   13,999 M/sec                  
+        24.827.844      LLC-load-misses           #   18,32% of all LL-cache hits   
+
+       9,682315153 seconds time elapsed
 
