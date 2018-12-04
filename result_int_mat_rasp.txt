@@ -1,0 +1,180 @@
+
+ Performance counter stats for './bench_int_mat':
+
+      93465.077235      task-clock (msec)         #    1.000 CPUs utilized          
+               810      context-switches          #    0.009 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             2,983      page-faults               #    0.032 K/sec                  
+   111,849,155,056      cycles                    #    1.197 GHz                      (87.49%)
+    45,138,278,657      instructions              #    0.40  insn per cycle           (87.50%)
+     1,011,272,627      branches                  #   10.820 M/sec                    (87.49%)
+         1,795,526      branch-misses             #    0.18% of all branches          (87.50%)
+    24,069,391,923      L1-dcache-loads           #  257.523 M/sec                    (87.50%)
+     1,218,171,856      L1-dcache-load-misses     #    5.06% of all L1-dcache hits    (87.51%)
+     2,441,073,639      LLC-loads                 #   26.117 M/sec                    (87.50%)
+        66,896,832      LLC-load-misses           #    2.74% of all LL-cache hits     (74.99%)
+
+      93.493926337 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+      93634.816713      task-clock (msec)         #    0.999 CPUs utilized          
+             1,227      context-switches          #    0.013 K/sec                  
+                 2      cpu-migrations            #    0.000 K/sec                  
+             2,985      page-faults               #    0.032 K/sec                  
+   112,099,055,916      cycles                    #    1.197 GHz                      (87.49%)
+    45,179,535,441      instructions              #    0.40  insn per cycle           (87.50%)
+     1,017,224,129      branches                  #   10.864 M/sec                    (87.50%)
+         2,516,682      branch-misses             #    0.25% of all branches          (87.50%)
+    24,086,215,657      L1-dcache-loads           #  257.236 M/sec                    (87.51%)
+     1,223,278,344      L1-dcache-load-misses     #    5.08% of all L1-dcache hits    (87.50%)
+     2,457,614,442      LLC-loads                 #   26.247 M/sec                    (87.51%)
+        67,187,499      LLC-load-misses           #    2.73% of all LL-cache hits     (74.99%)
+
+      93.695982340 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+      94190.641847      task-clock (msec)         #    0.998 CPUs utilized          
+             3,517      context-switches          #    0.037 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,985      page-faults               #    0.032 K/sec                  
+   112,751,785,825      cycles                    #    1.197 GHz                      (87.51%)
+    45,300,788,318      instructions              #    0.40  insn per cycle           (87.48%)
+     1,034,713,343      branches                  #   10.985 M/sec                    (87.52%)
+         4,650,325      branch-misses             #    0.45% of all branches          (87.49%)
+    24,135,060,132      L1-dcache-loads           #  256.236 M/sec                    (87.52%)
+     1,231,599,839      L1-dcache-load-misses     #    5.10% of all L1-dcache hits    (87.49%)
+     2,493,437,195      LLC-loads                 #   26.472 M/sec                    (87.51%)
+        67,871,160      LLC-load-misses           #    2.72% of all LL-cache hits     (75.00%)
+
+      94.361381965 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+      93442.267570      task-clock (msec)         #    1.000 CPUs utilized          
+               658      context-switches          #    0.007 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,985      page-faults               #    0.032 K/sec                  
+   111,873,843,775      cycles                    #    1.197 GHz                      (87.48%)
+    45,139,822,568      instructions              #    0.40  insn per cycle           (87.50%)
+     1,011,172,274      branches                  #   10.821 M/sec                    (87.50%)
+         1,752,670      branch-misses             #    0.17% of all branches          (87.50%)
+    24,068,769,361      L1-dcache-loads           #  257.579 M/sec                    (87.50%)
+     1,221,282,702      L1-dcache-load-misses     #    5.07% of all L1-dcache hits    (87.50%)
+     2,446,834,023      LLC-loads                 #   26.186 M/sec                    (87.50%)
+        66,845,551      LLC-load-misses           #    2.73% of all LL-cache hits     (74.99%)
+
+      93.461104827 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+      93593.290099      task-clock (msec)         #    0.999 CPUs utilized          
+             1,041      context-switches          #    0.011 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,983      page-faults               #    0.032 K/sec                  
+   112,049,083,829      cycles                    #    1.197 GHz                      (87.50%)
+    45,169,730,383      instructions              #    0.40  insn per cycle           (87.49%)
+     1,015,703,264      branches                  #   10.852 M/sec                    (87.51%)
+         2,319,985      branch-misses             #    0.23% of all branches          (87.50%)
+    24,081,807,242      L1-dcache-loads           #  257.303 M/sec                    (87.51%)
+     1,221,758,434      L1-dcache-load-misses     #    5.07% of all L1-dcache hits    (87.50%)
+     2,453,085,300      LLC-loads                 #   26.210 M/sec                    (87.49%)
+        67,096,049      LLC-load-misses           #    2.74% of all LL-cache hits     (75.00%)
+
+      93.642119179 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+      93463.366431      task-clock (msec)         #    1.000 CPUs utilized          
+               688      context-switches          #    0.007 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,983      page-faults               #    0.032 K/sec                  
+   111,884,262,726      cycles                    #    1.197 GHz                      (87.51%)
+    45,141,668,779      instructions              #    0.40  insn per cycle           (87.51%)
+     1,011,795,828      branches                  #   10.826 M/sec                    (87.51%)
+         1,805,501      branch-misses             #    0.18% of all branches          (87.51%)
+    24,071,739,020      L1-dcache-loads           #  257.553 M/sec                    (87.48%)
+     1,220,867,292      L1-dcache-load-misses     #    5.07% of all L1-dcache hits    (87.51%)
+     2,446,450,241      LLC-loads                 #   26.175 M/sec                    (87.51%)
+        66,957,538      LLC-load-misses           #    2.74% of all LL-cache hits     (75.00%)
+
+      93.488016193 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+      93426.996223      task-clock (msec)         #    1.000 CPUs utilized          
+               633      context-switches          #    0.007 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             2,984      page-faults               #    0.032 K/sec                  
+   111,855,968,173      cycles                    #    1.197 GHz                      (87.50%)
+    45,136,553,333      instructions              #    0.40  insn per cycle           (87.50%)
+     1,011,255,310      branches                  #   10.824 M/sec                    (87.49%)
+         1,743,806      branch-misses             #    0.17% of all branches          (87.50%)
+    24,068,563,203      L1-dcache-loads           #  257.619 M/sec                    (87.50%)
+     1,217,820,400      L1-dcache-load-misses     #    5.06% of all L1-dcache hits    (87.50%)
+     2,439,959,038      LLC-loads                 #   26.116 M/sec                    (87.51%)
+        66,918,332      LLC-load-misses           #    2.74% of all LL-cache hits     (75.00%)
+
+      93.446308407 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+      94237.777668      task-clock (msec)         #    0.998 CPUs utilized          
+             1,527      context-switches          #    0.016 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,984      page-faults               #    0.032 K/sec                  
+   112,814,851,523      cycles                    #    1.197 GHz                      (87.50%)
+    45,309,612,793      instructions              #    0.40  insn per cycle           (87.49%)
+     1,035,902,544      branches                  #   10.992 M/sec                    (87.49%)
+         4,629,556      branch-misses             #    0.45% of all branches          (87.52%)
+    24,133,244,927      L1-dcache-loads           #  256.089 M/sec                    (87.49%)
+     1,231,861,031      L1-dcache-load-misses     #    5.10% of all L1-dcache hits    (87.50%)
+     2,495,019,979      LLC-loads                 #   26.476 M/sec                    (87.49%)
+        68,115,015      LLC-load-misses           #    2.73% of all LL-cache hits     (75.03%)
+
+      94.383812853 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+      93463.353524      task-clock (msec)         #    0.999 CPUs utilized          
+             1,898      context-switches          #    0.020 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,983      page-faults               #    0.032 K/sec                  
+   111,897,524,587      cycles                    #    1.197 GHz                      (87.51%)
+    45,146,199,770      instructions              #    0.40  insn per cycle           (87.47%)
+     1,012,315,021      branches                  #   10.831 M/sec                    (87.51%)
+         2,044,904      branch-misses             #    0.20% of all branches          (87.49%)
+    24,074,524,273      L1-dcache-loads           #  257.583 M/sec                    (87.52%)
+     1,220,220,906      L1-dcache-load-misses     #    5.07% of all L1-dcache hits    (87.50%)
+     2,445,660,516      LLC-loads                 #   26.167 M/sec                    (87.51%)
+        67,073,853      LLC-load-misses           #    2.74% of all LL-cache hits     (75.00%)
+
+      93.594086667 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+      93421.624559      task-clock (msec)         #    1.000 CPUs utilized          
+               447      context-switches          #    0.005 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             2,984      page-faults               #    0.032 K/sec                  
+   111,848,437,316      cycles                    #    1.197 GHz                      (87.50%)
+    45,133,958,833      instructions              #    0.40  insn per cycle           (87.50%)
+     1,011,206,192      branches                  #   10.824 M/sec                    (87.50%)
+         1,746,015      branch-misses             #    0.17% of all branches          (87.50%)
+    24,067,896,674      L1-dcache-loads           #  257.627 M/sec                    (87.50%)
+     1,218,763,813      L1-dcache-load-misses     #    5.06% of all L1-dcache hits    (87.50%)
+     2,441,721,068      LLC-loads                 #   26.137 M/sec                    (87.51%)
+        66,895,662      LLC-load-misses           #    2.74% of all LL-cache hits     (74.99%)
+
+      93.449180511 seconds time elapsed
+
