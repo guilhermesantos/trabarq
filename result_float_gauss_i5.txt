@@ -142,3 +142,39 @@
 
        5,036943782 seconds time elapsed
 
+
+ Performance counter stats for './bench_float_gauss':
+
+       5043,423235      task-clock (msec)         #    1,000 CPUs utilized          
+                 7      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.338      page-faults               #    0,238 M/sec                  
+    12.579.130.369      cycles                    #    2,494 GHz                    
+    22.545.120.994      instructions              #    1,79  insn per cycle         
+     1.557.470.788      branches                  #  308,812 M/sec                  
+         4.171.001      branch-misses             #    0,27% of all branches        
+    10.254.169.704      L1-dcache-loads           # 2033,177 M/sec                  
+       228.766.104      L1-dcache-load-misses     #    2,23% of all L1-dcache hits  
+         3.329.497      LLC-loads                 #    0,660 M/sec                  
+         1.081.634      LLC-load-misses           #   32,49% of all LL-cache hits   
+
+       5,043786589 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       5041,568624      task-clock (msec)         #    1,000 CPUs utilized          
+                16      context-switches          #    0,003 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+         1.202.337      page-faults               #    0,238 M/sec                  
+    12.574.371.403      cycles                    #    2,494 GHz                    
+    22.545.323.588      instructions              #    1,79  insn per cycle         
+     1.557.507.261      branches                  #  308,933 M/sec                  
+         4.172.904      branch-misses             #    0,27% of all branches        
+    10.254.225.082      L1-dcache-loads           # 2033,935 M/sec                  
+       226.766.148      L1-dcache-load-misses     #    2,21% of all L1-dcache hits  
+         3.443.866      LLC-loads                 #    0,683 M/sec                  
+         1.125.954      LLC-load-misses           #   32,69% of all LL-cache hits   
+
+       5,042132527 seconds time elapsed
+
