@@ -28,3 +28,9 @@ for i in {1..10}
 	do
 		sudo perf stat -d ./bench_branch_sort &>> result_branch_sort_$PLAT_NAME.txt
 	done
+
+echo 'Fazendo testes de dependencia de dados'
+for i in {1..10}
+	do
+		sudo perf stat -d ./bench_dep &>> result_dep_$PLAT_NAME.txt
+	done
