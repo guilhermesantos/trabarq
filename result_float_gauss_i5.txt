@@ -1,0 +1,140 @@
+
+ Performance counter stats for './bench_float_gauss':
+
+       5027,826802      task-clock (msec)         #    1,000 CPUs utilized          
+                 7      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.337      page-faults               #    0,239 M/sec                  
+    12.540.252.758      cycles                    #    2,494 GHz                    
+    22.534.884.135      instructions              #    1,80  insn per cycle         
+     1.555.430.790      branches                  #  309,364 M/sec                  
+         4.174.163      branch-misses             #    0,27% of all branches        
+
+       5,028183202 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       5026,675359      task-clock (msec)         #    1,000 CPUs utilized          
+                 7      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.337      page-faults               #    0,239 M/sec                  
+    12.537.406.802      cycles                    #    2,494 GHz                    
+    22.534.927.739      instructions              #    1,80  insn per cycle         
+     1.555.443.723      branches                  #  309,438 M/sec                  
+         4.186.990      branch-misses             #    0,27% of all branches        
+
+       5,027019608 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       5031,866812      task-clock (msec)         #    1,000 CPUs utilized          
+                 6      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.339      page-faults               #    0,239 M/sec                  
+    12.550.359.481      cycles                    #    2,494 GHz                    
+    22.534.899.878      instructions              #    1,80  insn per cycle         
+     1.555.431.105      branches                  #  309,116 M/sec                  
+         4.152.583      branch-misses             #    0,27% of all branches        
+
+       5,032149301 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       5031,440137      task-clock (msec)         #    1,000 CPUs utilized          
+                 7      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.337      page-faults               #    0,239 M/sec                  
+    12.549.276.552      cycles                    #    2,494 GHz                    
+    22.534.897.788      instructions              #    1,80  insn per cycle         
+     1.555.435.778      branches                  #  309,143 M/sec                  
+         4.156.536      branch-misses             #    0,27% of all branches        
+
+       5,031791818 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       5028,553214      task-clock (msec)         #    1,000 CPUs utilized          
+                10      context-switches          #    0,002 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.339      page-faults               #    0,239 M/sec                  
+    12.542.063.901      cycles                    #    2,494 GHz                    
+    22.534.985.992      instructions              #    1,80  insn per cycle         
+     1.555.449.772      branches                  #  309,324 M/sec                  
+         4.151.590      branch-misses             #    0,27% of all branches        
+
+       5,028943879 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       5035,976909      task-clock (msec)         #    1,000 CPUs utilized          
+                10      context-switches          #    0,002 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.338      page-faults               #    0,239 M/sec                  
+    12.560.566.949      cycles                    #    2,494 GHz                    
+    22.535.324.884      instructions              #    1,79  insn per cycle         
+     1.555.506.938      branches                  #  308,879 M/sec                  
+         4.178.399      branch-misses             #    0,27% of all branches        
+
+       5,036331054 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       5035,086317      task-clock (msec)         #    1,000 CPUs utilized          
+                 9      context-switches          #    0,002 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.338      page-faults               #    0,239 M/sec                  
+    12.558.362.791      cycles                    #    2,494 GHz                    
+    22.534.969.135      instructions              #    1,79  insn per cycle         
+     1.555.444.440      branches                  #  308,921 M/sec                  
+         4.179.937      branch-misses             #    0,27% of all branches        
+
+       5,035484162 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       5034,094911      task-clock (msec)         #    1,000 CPUs utilized          
+                 7      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.337      page-faults               #    0,239 M/sec                  
+    12.555.907.080      cycles                    #    2,494 GHz                    
+    22.534.951.558      instructions              #    1,79  insn per cycle         
+     1.555.440.145      branches                  #  308,981 M/sec                  
+         4.143.298      branch-misses             #    0,27% of all branches        
+
+       5,034427881 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       5025,450199      task-clock (msec)         #    1,000 CPUs utilized          
+                 6      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.340      page-faults               #    0,239 M/sec                  
+    12.534.343.762      cycles                    #    2,494 GHz                    
+    22.534.969.007      instructions              #    1,80  insn per cycle         
+     1.555.448.878      branches                  #  309,514 M/sec                  
+         4.150.635      branch-misses             #    0,27% of all branches        
+
+       5,025819354 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       5030,832091      task-clock (msec)         #    1,000 CPUs utilized          
+                 7      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.338      page-faults               #    0,239 M/sec                  
+    12.547.771.204      cycles                    #    2,494 GHz                    
+    22.534.946.369      instructions              #    1,80  insn per cycle         
+     1.555.440.849      branches                  #  309,182 M/sec                  
+         4.184.478      branch-misses             #    0,27% of all branches        
+
+       5,031179129 seconds time elapsed
+
