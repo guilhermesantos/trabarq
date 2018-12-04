@@ -27,5 +27,5 @@ for i in {1..10}
 echo 'Fazendo testes de branch com sort'
 for i in {1..10} 
 	do
-		sudo perf stat ./bench_branch_sort &>> result_branch_$PLAT_NAME.txt
+		sudo perf stat ./bench_branch_sort &>> result_branch_sort_$PLAT_NAME.txt
 	done
