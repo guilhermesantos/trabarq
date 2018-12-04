@@ -11,7 +11,7 @@ for i in {1..10}
 		sudo perf stat ./bench_float_mat &>> result_float_mat_i5.txt
 	done
 
-echo 'Fazendo testes de multiplicacao de gauss'
+echo 'Fazendo testes de gauss'
 for i in {1..10} 
 	do
 		sudo perf stat ./bench_float_gauss &>> result_float_gauss_i5.txt
