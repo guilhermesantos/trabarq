@@ -1,0 +1,140 @@
+
+ Performance counter stats for './bench_branch':
+
+          0,964761      task-clock (msec)         #    0,815 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                75      page-faults               #    0,078 M/sec                  
+         2.400.544      cycles                    #    2,488 GHz                    
+         3.134.398      instructions              #    1,31  insn per cycle         
+           763.602      branches                  #  791,493 M/sec                  
+            21.924      branch-misses             #    2,87% of all branches        
+
+       0,001184455 seconds time elapsed
+
+
+ Performance counter stats for './bench_branch':
+
+          0,947893      task-clock (msec)         #    0,814 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                77      page-faults               #    0,081 M/sec                  
+         2.358.582      cycles                    #    2,488 GHz                    
+         3.156.575      instructions              #    1,34  insn per cycle         
+           767.543      branches                  #  809,736 M/sec                  
+            22.150      branch-misses             #    2,89% of all branches        
+
+       0,001164409 seconds time elapsed
+
+
+ Performance counter stats for './bench_branch':
+
+          0,930081      task-clock (msec)         #    0,816 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                76      page-faults               #    0,082 M/sec                  
+         2.313.930      cycles                    #    2,488 GHz                    
+         3.140.941      instructions              #    1,36  insn per cycle         
+           764.465      branches                  #  821,934 M/sec                  
+            21.902      branch-misses             #    2,87% of all branches        
+
+       0,001139292 seconds time elapsed
+
+
+ Performance counter stats for './bench_branch':
+
+          0,927440      task-clock (msec)         #    0,817 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                75      page-faults               #    0,081 M/sec                  
+         2.307.781      cycles                    #    2,488 GHz                    
+         3.127.559      instructions              #    1,36  insn per cycle         
+           762.461      branches                  #  822,114 M/sec                  
+            21.792      branch-misses             #    2,86% of all branches        
+
+       0,001134538 seconds time elapsed
+
+
+ Performance counter stats for './bench_branch':
+
+          0,939843      task-clock (msec)         #    0,826 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                76      page-faults               #    0,081 M/sec                  
+         2.338.471      cycles                    #    2,488 GHz                    
+         3.134.171      instructions              #    1,34  insn per cycle         
+           763.381      branches                  #  812,243 M/sec                  
+            21.625      branch-misses             #    2,83% of all branches        
+
+       0,001137644 seconds time elapsed
+
+
+ Performance counter stats for './bench_branch':
+
+          0,956832      task-clock (msec)         #    0,816 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                79      page-faults               #    0,083 M/sec                  
+         2.381.077      cycles                    #    2,489 GHz                    
+         3.172.602      instructions              #    1,33  insn per cycle         
+           770.356      branches                  #  805,111 M/sec                  
+            22.300      branch-misses             #    2,89% of all branches        
+
+       0,001173274 seconds time elapsed
+
+
+ Performance counter stats for './bench_branch':
+
+          0,946210      task-clock (msec)         #    0,824 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                75      page-faults               #    0,079 M/sec                  
+         2.354.031      cycles                    #    2,488 GHz                    
+         3.142.867      instructions              #    1,34  insn per cycle         
+           764.867      branches                  #  808,348 M/sec                  
+            21.709      branch-misses             #    2,84% of all branches        
+
+       0,001148401 seconds time elapsed
+
+
+ Performance counter stats for './bench_branch':
+
+          0,950149      task-clock (msec)         #    0,814 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                76      page-faults               #    0,080 M/sec                  
+         2.364.139      cycles                    #    2,488 GHz                    
+         3.145.638      instructions              #    1,33  insn per cycle         
+           765.333      branches                  #  805,487 M/sec                  
+            21.900      branch-misses             #    2,86% of all branches        
+
+       0,001167938 seconds time elapsed
+
+
+ Performance counter stats for './bench_branch':
+
+          0,951732      task-clock (msec)         #    0,819 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                77      page-faults               #    0,081 M/sec                  
+         2.368.169      cycles                    #    2,488 GHz                    
+         3.160.438      instructions              #    1,33  insn per cycle         
+           767.826      branches                  #  806,767 M/sec                  
+            22.090      branch-misses             #    2,88% of all branches        
+
+       0,001161762 seconds time elapsed
+
+
+ Performance counter stats for './bench_branch':
+
+          0,946526      task-clock (msec)         #    0,839 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                75      page-faults               #    0,079 M/sec                  
+         2.355.361      cycles                    #    2,488 GHz                    
+         3.149.656      instructions              #    1,34  insn per cycle         
+           766.082      branches                  #  809,362 M/sec                  
+            22.118      branch-misses             #    2,89% of all branches        
+
+       0,001127738 seconds time elapsed
+

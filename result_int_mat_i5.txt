@@ -1,0 +1,140 @@
+
+ Performance counter stats for './bench_int_mat':
+
+       7721,370276      task-clock (msec)         #    1,000 CPUs utilized          
+                 4      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             2.993      page-faults               #    0,388 K/sec                  
+    19.258.510.914      cycles                    #    2,494 GHz                    
+    50.068.091.425      instructions              #    2,60  insn per cycle         
+     1.007.088.701      branches                  #  130,429 M/sec                  
+         1.049.977      branch-misses             #    0,10% of all branches        
+
+       7,721683972 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+       7604,979655      task-clock (msec)         #    1,000 CPUs utilized          
+                 9      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             2.994      page-faults               #    0,394 K/sec                  
+    18.968.176.542      cycles                    #    2,494 GHz                    
+    50.067.930.843      instructions              #    2,64  insn per cycle         
+     1.007.047.875      branches                  #  132,420 M/sec                  
+         1.047.039      branch-misses             #    0,10% of all branches        
+
+       7,605289383 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+       7723,989736      task-clock (msec)         #    1,000 CPUs utilized          
+                 4      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             2.993      page-faults               #    0,387 K/sec                  
+    19.265.035.089      cycles                    #    2,494 GHz                    
+    50.068.205.403      instructions              #    2,60  insn per cycle         
+     1.007.120.386      branches                  #  130,389 M/sec                  
+         1.047.952      branch-misses             #    0,10% of all branches        
+
+       7,724252005 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+       7797,882584      task-clock (msec)         #    1,000 CPUs utilized          
+                10      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             2.993      page-faults               #    0,384 K/sec                  
+    19.449.303.434      cycles                    #    2,494 GHz                    
+    50.068.316.263      instructions              #    2,57  insn per cycle         
+     1.007.131.550      branches                  #  129,154 M/sec                  
+         1.053.995      branch-misses             #    0,10% of all branches        
+
+       7,798190978 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+       7721,194961      task-clock (msec)         #    1,000 CPUs utilized          
+                 5      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             2.995      page-faults               #    0,388 K/sec                  
+    19.258.065.885      cycles                    #    2,494 GHz                    
+    50.068.164.097      instructions              #    2,60  insn per cycle         
+     1.007.113.899      branches                  #  130,435 M/sec                  
+         1.049.905      branch-misses             #    0,10% of all branches        
+
+       7,721474871 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+       7897,987458      task-clock (msec)         #    1,000 CPUs utilized          
+                 4      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             2.995      page-faults               #    0,379 K/sec                  
+    19.699.017.593      cycles                    #    2,494 GHz                    
+    50.068.267.331      instructions              #    2,54  insn per cycle         
+     1.007.120.620      branches                  #  127,516 M/sec                  
+         1.051.650      branch-misses             #    0,10% of all branches        
+
+       7,898262211 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+       8058,550262      task-clock (msec)         #    1,000 CPUs utilized          
+                12      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             2.994      page-faults               #    0,372 K/sec                  
+    20.099.439.713      cycles                    #    2,494 GHz                    
+    50.083.084.494      instructions              #    2,49  insn per cycle         
+     1.009.826.597      branches                  #  125,311 M/sec                  
+         1.137.918      branch-misses             #    0,11% of all branches        
+
+       8,058915838 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+       7828,255677      task-clock (msec)         #    1,000 CPUs utilized          
+                77      context-switches          #    0,010 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             2.995      page-faults               #    0,383 K/sec                  
+    19.524.697.303      cycles                    #    2,494 GHz                    
+    50.069.607.653      instructions              #    2,56  insn per cycle         
+     1.007.345.893      branches                  #  128,681 M/sec                  
+         1.062.208      branch-misses             #    0,11% of all branches        
+
+       7,829334567 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+       7909,374951      task-clock (msec)         #    1,000 CPUs utilized          
+                16      context-switches          #    0,002 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             2.995      page-faults               #    0,379 K/sec                  
+    19.727.334.572      cycles                    #    2,494 GHz                    
+    50.068.398.767      instructions              #    2,54  insn per cycle         
+     1.007.136.791      branches                  #  127,335 M/sec                  
+         1.053.740      branch-misses             #    0,10% of all branches        
+
+       7,909788263 seconds time elapsed
+
+
+ Performance counter stats for './bench_int_mat':
+
+       7777,223282      task-clock (msec)         #    1,000 CPUs utilized          
+                 8      context-switches          #    0,001 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             2.993      page-faults               #    0,385 K/sec                  
+    19.397.776.081      cycles                    #    2,494 GHz                    
+    50.068.286.219      instructions              #    2,58  insn per cycle         
+     1.007.136.510      branches                  #  129,498 M/sec                  
+         1.051.602      branch-misses             #    0,10% of all branches        
+
+       7,777571475 seconds time elapsed
+
