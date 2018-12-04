@@ -44,6 +44,6 @@ int main(int argc, char *argv[]) {
         if (array[i] >= 256)
             sum += array[i];
     }
-    printf("%ld\n", sum);
+//    printf("%ld\n", sum);
     return 0;
 }
