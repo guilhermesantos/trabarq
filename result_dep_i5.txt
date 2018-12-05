@@ -1,180 +1,180 @@
-33333
+
  Performance counter stats for './bench_dep':
 
-          0,330377      task-clock (msec)         #    0,533 CPUs utilized          
-                 1      context-switches          #    0,003 M/sec                  
-                 1      cpu-migrations            #    0,003 M/sec                  
-                51      page-faults               #    0,154 M/sec                  
-         1.038.821      cycles                    #    3,144 GHz                    
-           650.859      instructions              #    0,63  insn per cycle         
-           126.798      branches                  #  383,798 M/sec                  
-             7.867      branch-misses             #    6,20% of all branches        
-           181.490      L1-dcache-loads           #  549,342 M/sec                  
-            13.921      L1-dcache-load-misses     #    7,67% of all L1-dcache hits  
-             3.755      LLC-loads                 #   11,366 M/sec                  
-             1.342      LLC-load-misses           #   35,74% of all LL-cache hits   
-
-       0,000619763 seconds time elapsed
-
-33333
- Performance counter stats for './bench_dep':
-
-          0,261466      task-clock (msec)         #    0,578 CPUs utilized          
+        812,062069      task-clock (msec)         #    1,000 CPUs utilized          
                  0      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                55      page-faults               #    0,210 M/sec                  
-           826.140      cycles                    #    3,160 GHz                    
-           652.217      instructions              #    0,79  insn per cycle         
-           127.092      branches                  #  486,075 M/sec                  
-             6.762      branch-misses             #    5,32% of all branches        
-           181.816      L1-dcache-loads           #  695,371 M/sec                  
-            13.162      L1-dcache-load-misses     #    7,24% of all L1-dcache hits  
-             3.046      LLC-loads                 #   11,650 M/sec                  
-               689      LLC-load-misses           #   22,62% of all LL-cache hits   
+                61      page-faults               #    0,075 K/sec                  
+     2.701.702.096      cycles                    #    3,327 GHz                    
+     3.502.293.622      instructions              #    1,30  insn per cycle         
+       300.509.719      branches                  #  370,058 M/sec                  
+            82.372      branch-misses             #    0,03% of all branches        
+     2.100.703.451      L1-dcache-loads           # 2586,875 M/sec                  
+        17.584.230      L1-dcache-load-misses     #    0,84% of all L1-dcache hits  
+             5.522      LLC-loads                 #    0,007 M/sec                  
+             2.718      LLC-load-misses           #   49,22% of all LL-cache hits   
 
-       0,000452245 seconds time elapsed
+       0,812341077 seconds time elapsed
 
-33333
+
  Performance counter stats for './bench_dep':
 
-          0,252450      task-clock (msec)         #    0,562 CPUs utilized          
-                 0      context-switches          #    0,000 K/sec                  
+        798,864394      task-clock (msec)         #    1,000 CPUs utilized          
+                 5      context-switches          #    0,006 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                51      page-faults               #    0,202 M/sec                  
-           797.581      cycles                    #    3,159 GHz                    
-           641.723      instructions              #    0,80  insn per cycle         
-           124.786      branches                  #  494,300 M/sec                  
-             6.635      branch-misses             #    5,32% of all branches        
-           177.061      L1-dcache-loads           #  701,371 M/sec                  
-            12.802      L1-dcache-load-misses     #    7,23% of all L1-dcache hits  
-             3.064      LLC-loads                 #   12,137 M/sec                  
-               676      LLC-load-misses           #   22,06% of all LL-cache hits   
+                63      page-faults               #    0,079 K/sec                  
+     2.718.581.286      cycles                    #    3,403 GHz                    
+     3.504.028.804      instructions              #    1,29  insn per cycle         
+       300.812.126      branches                  #  376,550 M/sec                  
+            97.054      branch-misses             #    0,03% of all branches        
+     2.101.258.614      L1-dcache-loads           # 2630,307 M/sec                  
+        17.682.014      L1-dcache-load-misses     #    0,84% of all L1-dcache hits  
+            14.358      LLC-loads                 #    0,018 M/sec                  
+             5.679      LLC-load-misses           #   39,55% of all LL-cache hits   
 
-       0,000449274 seconds time elapsed
+       0,799185727 seconds time elapsed
 
-33333
+
  Performance counter stats for './bench_dep':
 
-          0,264997      task-clock (msec)         #    0,587 CPUs utilized          
-                 0      context-switches          #    0,000 K/sec                  
+        817,356050      task-clock (msec)         #    1,000 CPUs utilized          
+                 1      context-switches          #    0,001 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                54      page-faults               #    0,204 M/sec                  
-           837.957      cycles                    #    3,162 GHz                    
-           657.718      instructions              #    0,78  insn per cycle         
-           127.682      branches                  #  481,824 M/sec                  
-             6.651      branch-misses             #    5,21% of all branches        
-           181.720      L1-dcache-loads           #  685,744 M/sec                  
-            13.007      L1-dcache-load-misses     #    7,16% of all L1-dcache hits  
-             2.957      LLC-loads                 #   11,159 M/sec                  
-               722      LLC-load-misses           #   24,42% of all LL-cache hits   
+                61      page-faults               #    0,075 K/sec                  
+     2.703.302.766      cycles                    #    3,307 GHz                    
+     3.502.332.642      instructions              #    1,30  insn per cycle         
+       300.517.067      branches                  #  367,670 M/sec                  
+            81.037      branch-misses             #    0,03% of all branches        
+     2.100.713.618      L1-dcache-loads           # 2570,133 M/sec                  
+        18.533.288      L1-dcache-load-misses     #    0,88% of all L1-dcache hits  
+             6.488      LLC-loads                 #    0,008 M/sec                  
+             2.935      LLC-load-misses           #   45,24% of all LL-cache hits   
 
-       0,000451191 seconds time elapsed
+       0,817594414 seconds time elapsed
 
-33333
+
  Performance counter stats for './bench_dep':
 
-          0,252617      task-clock (msec)         #    0,562 CPUs utilized          
-                 0      context-switches          #    0,000 K/sec                  
+        814,560983      task-clock (msec)         #    0,997 CPUs utilized          
+               105      context-switches          #    0,129 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                51      page-faults               #    0,202 M/sec                  
-           797.974      cycles                    #    3,159 GHz                    
-           633.825      instructions              #    0,79  insn per cycle         
-           123.776      branches                  #  489,975 M/sec                  
-             6.703      branch-misses             #    5,42% of all branches        
-           177.189      L1-dcache-loads           #  701,414 M/sec                  
-            12.796      L1-dcache-load-misses     #    7,22% of all L1-dcache hits  
-             2.923      LLC-loads                 #   11,571 M/sec                  
-               605      LLC-load-misses           #   20,70% of all LL-cache hits   
+                60      page-faults               #    0,074 K/sec                  
+     2.703.642.060      cycles                    #    3,319 GHz                    
+     3.502.799.203      instructions              #    1,30  insn per cycle         
+       300.613.222      branches                  #  369,049 M/sec                  
+            87.566      branch-misses             #    0,03% of all branches        
+     2.100.859.394      L1-dcache-loads           # 2579,131 M/sec                  
+        18.274.730      L1-dcache-load-misses     #    0,87% of all L1-dcache hits  
+            11.330      LLC-loads                 #    0,014 M/sec                  
+             2.031      LLC-load-misses           #   17,93% of all LL-cache hits   
 
-       0,000449513 seconds time elapsed
+       0,816729568 seconds time elapsed
 
-33333
+
  Performance counter stats for './bench_dep':
 
-          0,250324      task-clock (msec)         #    0,556 CPUs utilized          
-                 0      context-switches          #    0,000 K/sec                  
+        816,059014      task-clock (msec)         #    1,000 CPUs utilized          
+                 1      context-switches          #    0,001 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                50      page-faults               #    0,200 M/sec                  
-           790.310      cycles                    #    3,157 GHz                    
-           627.990      instructions              #    0,79  insn per cycle         
-           122.483      branches                  #  489,298 M/sec                  
-             6.601      branch-misses             #    5,39% of all branches        
-           174.224      L1-dcache-loads           #  695,994 M/sec                  
-            12.636      L1-dcache-load-misses     #    7,25% of all L1-dcache hits  
-             2.888      LLC-loads                 #   11,537 M/sec                  
-               648      LLC-load-misses           #   22,44% of all LL-cache hits   
+                61      page-faults               #    0,075 K/sec                  
+     2.702.402.907      cycles                    #    3,312 GHz                    
+     3.502.317.360      instructions              #    1,30  insn per cycle         
+       300.514.577      branches                  #  368,251 M/sec                  
+            83.281      branch-misses             #    0,03% of all branches        
+     2.100.710.091      L1-dcache-loads           # 2574,213 M/sec                  
+        17.355.494      L1-dcache-load-misses     #    0,83% of all L1-dcache hits  
+             6.909      LLC-loads                 #    0,008 M/sec                  
+             2.571      LLC-load-misses           #   37,21% of all LL-cache hits   
 
-       0,000450556 seconds time elapsed
+       0,816289341 seconds time elapsed
 
-33333
+
  Performance counter stats for './bench_dep':
 
-          0,254610      task-clock (msec)         #    0,586 CPUs utilized          
-                 0      context-switches          #    0,000 K/sec                  
+        800,751691      task-clock (msec)         #    1,000 CPUs utilized          
+                 3      context-switches          #    0,004 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                51      page-faults               #    0,200 M/sec                  
-           804.375      cycles                    #    3,159 GHz                    
-           635.510      instructions              #    0,79  insn per cycle         
-           123.948      branches                  #  486,815 M/sec                  
-             6.668      branch-misses             #    5,38% of all branches        
-           176.646      L1-dcache-loads           #  693,791 M/sec                  
-            12.652      L1-dcache-load-misses     #    7,16% of all L1-dcache hits  
-             2.998      LLC-loads                 #   11,775 M/sec                  
-               544      LLC-load-misses           #   18,15% of all LL-cache hits   
+                61      page-faults               #    0,076 K/sec                  
+     2.723.124.371      cycles                    #    3,401 GHz                    
+     3.503.974.362      instructions              #    1,29  insn per cycle         
+       300.802.119      branches                  #  375,650 M/sec                  
+            94.308      branch-misses             #    0,03% of all branches        
+     2.101.242.145      L1-dcache-loads           # 2624,087 M/sec                  
+        17.634.907      L1-dcache-load-misses     #    0,84% of all L1-dcache hits  
+            13.087      LLC-loads                 #    0,016 M/sec                  
+             4.085      LLC-load-misses           #   31,21% of all LL-cache hits   
 
-       0,000434306 seconds time elapsed
+       0,801029346 seconds time elapsed
 
-33333
+
  Performance counter stats for './bench_dep':
 
-          0,260604      task-clock (msec)         #    0,593 CPUs utilized          
-                 0      context-switches          #    0,000 K/sec                  
+        816,416076      task-clock (msec)         #    1,000 CPUs utilized          
+                 1      context-switches          #    0,001 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                53      page-faults               #    0,203 M/sec                  
-           823.479      cycles                    #    3,160 GHz                    
-           652.365      instructions              #    0,79  insn per cycle         
-           126.769      branches                  #  486,443 M/sec                  
-             6.695      branch-misses             #    5,28% of all branches        
-           180.213      L1-dcache-loads           #  691,520 M/sec                  
-            12.979      L1-dcache-load-misses     #    7,20% of all L1-dcache hits  
-             2.911      LLC-loads                 #   11,170 M/sec                  
-               638      LLC-load-misses           #   21,92% of all LL-cache hits   
+                61      page-faults               #    0,075 K/sec                  
+     2.707.658.233      cycles                    #    3,317 GHz                    
+     3.502.328.670      instructions              #    1,29  insn per cycle         
+       300.516.331      branches                  #  368,092 M/sec                  
+            81.239      branch-misses             #    0,03% of all branches        
+     2.100.712.250      L1-dcache-loads           # 2573,090 M/sec                  
+        17.381.969      L1-dcache-load-misses     #    0,83% of all L1-dcache hits  
+             5.557      LLC-loads                 #    0,007 M/sec                  
+             2.439      LLC-load-misses           #   43,89% of all LL-cache hits   
 
-       0,000439194 seconds time elapsed
+       0,816665391 seconds time elapsed
 
-33333
+
  Performance counter stats for './bench_dep':
 
-          0,290677      task-clock (msec)         #    0,614 CPUs utilized          
-                 0      context-switches          #    0,000 K/sec                  
+        817,101918      task-clock (msec)         #    1,000 CPUs utilized          
+                 1      context-switches          #    0,001 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                50      page-faults               #    0,172 M/sec                  
-           855.487      cycles                    #    2,943 GHz                    
-           632.148      instructions              #    0,74  insn per cycle         
-           123.301      branches                  #  424,186 M/sec                  
-             6.800      branch-misses             #    5,51% of all branches        
-           175.953      L1-dcache-loads           #  605,321 M/sec                  
-            13.107      L1-dcache-load-misses     #    7,45% of all L1-dcache hits  
-             3.221      LLC-loads                 #   11,081 M/sec                  
-               830      LLC-load-misses           #   25,77% of all LL-cache hits   
+                60      page-faults               #    0,073 K/sec                  
+     2.708.376.376      cycles                    #    3,315 GHz                    
+     3.502.296.715      instructions              #    1,29  insn per cycle         
+       300.510.885      branches                  #  367,777 M/sec                  
+            80.953      branch-misses             #    0,03% of all branches        
+     2.100.704.876      L1-dcache-loads           # 2570,921 M/sec                  
+        18.289.695      L1-dcache-load-misses     #    0,87% of all L1-dcache hits  
+             5.787      LLC-loads                 #    0,007 M/sec                  
+             2.493      LLC-load-misses           #   43,08% of all LL-cache hits   
 
-       0,000473363 seconds time elapsed
+       0,817342849 seconds time elapsed
 
-33333
+
  Performance counter stats for './bench_dep':
 
-          0,253971      task-clock (msec)         #    0,575 CPUs utilized          
-                 0      context-switches          #    0,000 K/sec                  
+        818,711624      task-clock (msec)         #    0,999 CPUs utilized          
+                 4      context-switches          #    0,005 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                51      page-faults               #    0,201 M/sec                  
-           802.052      cycles                    #    3,158 GHz                    
-           644.346      instructions              #    0,80  insn per cycle         
-           125.145      branches                  #  492,753 M/sec                  
-             6.685      branch-misses             #    5,34% of all branches        
-           177.701      L1-dcache-loads           #  699,690 M/sec                  
-            12.848      L1-dcache-load-misses     #    7,23% of all L1-dcache hits  
-             2.956      LLC-loads                 #   11,639 M/sec                  
-               613      LLC-load-misses           #   20,74% of all LL-cache hits   
+                61      page-faults               #    0,075 K/sec                  
+     2.702.821.012      cycles                    #    3,301 GHz                    
+     3.502.417.160      instructions              #    1,30  insn per cycle         
+       300.531.419      branches                  #  367,078 M/sec                  
+            81.439      branch-misses             #    0,03% of all branches        
+     2.100.739.227      L1-dcache-loads           # 2565,909 M/sec                  
+        17.594.556      L1-dcache-load-misses     #    0,84% of all L1-dcache hits  
+             6.994      LLC-loads                 #    0,009 M/sec                  
+             3.071      LLC-load-misses           #   43,91% of all LL-cache hits   
 
-       0,000441482 seconds time elapsed
+       0,819440057 seconds time elapsed
+
+
+ Performance counter stats for './bench_dep':
+
+        818,727627      task-clock (msec)         #    1,000 CPUs utilized          
+                 1      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                64      page-faults               #    0,078 K/sec                  
+     2.713.003.974      cycles                    #    3,314 GHz                    
+     3.502.307.287      instructions              #    1,29  insn per cycle         
+       300.512.933      branches                  #  367,049 M/sec                  
+            82.667      branch-misses             #    0,03% of all branches        
+     2.100.708.978      L1-dcache-loads           # 2565,822 M/sec                  
+        17.478.880      L1-dcache-load-misses     #    0,83% of all L1-dcache hits  
+             5.792      LLC-loads                 #    0,007 M/sec                  
+             2.479      LLC-load-misses           #   42,80% of all LL-cache hits   
+
+       0,818954126 seconds time elapsed
 
