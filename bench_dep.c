@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define N 5
+#define N 32768
 
 int main(int argc, char *argv[]) {
     int array[N];
