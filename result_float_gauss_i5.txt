@@ -1,180 +1,180 @@
 
  Performance counter stats for './bench_float_gauss':
 
-       5028,362526      task-clock (msec)         #    1,000 CPUs utilized          
-                 8      context-switches          #    0,002 K/sec                  
+       3729,604716      task-clock (msec)         #    1,000 CPUs utilized          
+                 5      context-switches          #    0,001 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-         1.202.337      page-faults               #    0,239 M/sec                  
-    12.541.558.126      cycles                    #    2,494 GHz                    
-    22.545.125.768      instructions              #    1,80  insn per cycle         
-     1.557.472.270      branches                  #  309,737 M/sec                  
-         4.203.156      branch-misses             #    0,27% of all branches        
-    10.254.166.460      L1-dcache-loads           # 2039,266 M/sec                  
-       225.145.691      L1-dcache-load-misses     #    2,20% of all L1-dcache hits  
-         3.265.971      LLC-loads                 #    0,650 M/sec                  
-         1.059.316      LLC-load-misses           #   32,43% of all LL-cache hits   
+         1.202.340      page-faults               #    0,322 M/sec                  
+    12.937.521.844      cycles                    #    3,469 GHz                    
+    22.532.228.568      instructions              #    1,74  insn per cycle         
+     1.556.843.977      branches                  #  417,429 M/sec                  
+         4.090.845      branch-misses             #    0,26% of all branches        
+    10.253.266.594      L1-dcache-loads           # 2749,156 M/sec                  
+       229.867.574      L1-dcache-load-misses     #    2,24% of all L1-dcache hits  
+         4.905.297      LLC-loads                 #    1,315 M/sec                  
+         2.085.650      LLC-load-misses           #   42,52% of all LL-cache hits   
 
-       5,028774360 seconds time elapsed
+       3,729923909 seconds time elapsed
 
 
  Performance counter stats for './bench_float_gauss':
 
-       5025,869513      task-clock (msec)         #    1,000 CPUs utilized          
-                11      context-switches          #    0,002 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-         1.202.340      page-faults               #    0,239 M/sec                  
-    12.535.308.411      cycles                    #    2,494 GHz                    
-    22.545.147.842      instructions              #    1,80  insn per cycle         
-     1.557.475.320      branches                  #  309,892 M/sec                  
-         4.181.072      branch-misses             #    0,27% of all branches        
-    10.254.174.310      L1-dcache-loads           # 2040,279 M/sec                  
-       224.337.732      L1-dcache-load-misses     #    2,19% of all L1-dcache hits  
-         3.299.696      LLC-loads                 #    0,657 M/sec                  
-         1.088.767      LLC-load-misses           #   33,00% of all LL-cache hits   
-
-       5,026282592 seconds time elapsed
-
-
- Performance counter stats for './bench_float_gauss':
-
-       5023,685376      task-clock (msec)         #    1,000 CPUs utilized          
-                 6      context-switches          #    0,001 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-         1.202.337      page-faults               #    0,239 M/sec                  
-    12.529.908.376      cycles                    #    2,494 GHz                    
-    22.545.076.633      instructions              #    1,80  insn per cycle         
-     1.557.463.252      branches                  #  310,024 M/sec                  
-         4.147.799      branch-misses             #    0,27% of all branches        
-    10.254.155.055      L1-dcache-loads           # 2041,162 M/sec                  
-       229.193.367      L1-dcache-load-misses     #    2,24% of all L1-dcache hits  
-         3.270.682      LLC-loads                 #    0,651 M/sec                  
-         1.057.997      LLC-load-misses           #   32,35% of all LL-cache hits   
-
-       5,024056224 seconds time elapsed
-
-
- Performance counter stats for './bench_float_gauss':
-
-       5047,738514      task-clock (msec)         #    0,999 CPUs utilized          
-                94      context-switches          #    0,019 K/sec                  
+       3753,329224      task-clock (msec)         #    0,995 CPUs utilized          
+                11      context-switches          #    0,003 K/sec                  
                  1      cpu-migrations            #    0,000 K/sec                  
-         1.202.339      page-faults               #    0,238 M/sec                  
-    12.589.136.596      cycles                    #    2,494 GHz                    
-    22.545.731.261      instructions              #    1,79  insn per cycle         
-     1.557.589.691      branches                  #  308,572 M/sec                  
-         4.181.417      branch-misses             #    0,27% of all branches        
-    10.254.350.067      L1-dcache-loads           # 2031,474 M/sec                  
-       227.341.666      L1-dcache-load-misses     #    2,22% of all L1-dcache hits  
-         3.371.950      LLC-loads                 #    0,668 M/sec                  
-         1.128.878      LLC-load-misses           #   33,48% of all LL-cache hits   
+         1.202.339      page-faults               #    0,320 M/sec                  
+    12.903.439.353      cycles                    #    3,438 GHz                    
+    22.532.403.444      instructions              #    1,75  insn per cycle         
+     1.556.766.032      branches                  #  414,769 M/sec                  
+         4.057.578      branch-misses             #    0,26% of all branches        
+    10.253.187.602      L1-dcache-loads           # 2731,758 M/sec                  
+       228.265.984      L1-dcache-load-misses     #    2,23% of all L1-dcache hits  
+         4.764.362      LLC-loads                 #    1,269 M/sec                  
+         2.035.291      LLC-load-misses           #   42,72% of all LL-cache hits   
 
-       5,051304072 seconds time elapsed
+       3,770576001 seconds time elapsed
 
 
  Performance counter stats for './bench_float_gauss':
 
-       5040,307901      task-clock (msec)         #    1,000 CPUs utilized          
-                44      context-switches          #    0,009 K/sec                  
+       3705,665019      task-clock (msec)         #    1,000 CPUs utilized          
+                 5      context-switches          #    0,001 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-         1.202.340      page-faults               #    0,239 M/sec                  
-    12.570.820.875      cycles                    #    2,494 GHz                    
-    22.545.988.248      instructions              #    1,79  insn per cycle         
-     1.557.618.824      branches                  #  309,032 M/sec                  
-         4.188.074      branch-misses             #    0,27% of all branches        
-    10.254.409.476      L1-dcache-loads           # 2034,481 M/sec                  
-       222.508.184      L1-dcache-load-misses     #    2,17% of all L1-dcache hits  
-         3.328.607      LLC-loads                 #    0,660 M/sec                  
-         1.060.540      LLC-load-misses           #   31,86% of all LL-cache hits   
+         1.202.339      page-faults               #    0,324 M/sec                  
+    12.909.761.658      cycles                    #    3,484 GHz                    
+    22.532.230.807      instructions              #    1,75  insn per cycle         
+     1.556.736.365      branches                  #  420,096 M/sec                  
+         4.053.583      branch-misses             #    0,26% of all branches        
+    10.253.137.441      L1-dcache-loads           # 2766,882 M/sec                  
+       232.129.083      L1-dcache-load-misses     #    2,26% of all L1-dcache hits  
+         4.645.834      LLC-loads                 #    1,254 M/sec                  
+         2.000.224      LLC-load-misses           #   43,05% of all LL-cache hits   
 
-       5,041378929 seconds time elapsed
-
-
- Performance counter stats for './bench_float_gauss':
-
-       5038,440168      task-clock (msec)         #    0,999 CPUs utilized          
-               139      context-switches          #    0,028 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-         1.202.339      page-faults               #    0,239 M/sec                  
-    12.565.638.849      cycles                    #    2,494 GHz                    
-    22.545.594.234      instructions              #    1,79  insn per cycle         
-     1.557.573.362      branches                  #  309,138 M/sec                  
-         4.197.793      branch-misses             #    0,27% of all branches        
-    10.254.318.983      L1-dcache-loads           # 2035,217 M/sec                  
-       225.808.262      L1-dcache-load-misses     #    2,20% of all L1-dcache hits  
-         3.396.953      LLC-loads                 #    0,674 M/sec                  
-         1.105.523      LLC-load-misses           #   32,54% of all LL-cache hits   
-
-       5,044387400 seconds time elapsed
+       3,705944736 seconds time elapsed
 
 
  Performance counter stats for './bench_float_gauss':
 
-       5045,583653      task-clock (msec)         #    1,000 CPUs utilized          
-                 8      context-switches          #    0,002 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-         1.202.337      page-faults               #    0,238 M/sec                  
-    12.584.504.173      cycles                    #    2,494 GHz                    
-    22.545.129.126      instructions              #    1,79  insn per cycle         
-     1.557.475.970      branches                  #  308,681 M/sec                  
-         4.153.896      branch-misses             #    0,27% of all branches        
-    10.254.169.814      L1-dcache-loads           # 2032,306 M/sec                  
-       224.315.507      L1-dcache-load-misses     #    2,19% of all L1-dcache hits  
-         3.110.816      LLC-loads                 #    0,617 M/sec                  
-         1.063.419      LLC-load-misses           #   34,18% of all LL-cache hits   
-
-       5,046392804 seconds time elapsed
-
-
- Performance counter stats for './bench_float_gauss':
-
-       5036,528307      task-clock (msec)         #    1,000 CPUs utilized          
+       3731,720099      task-clock (msec)         #    1,000 CPUs utilized          
                  9      context-switches          #    0,002 K/sec                  
-                 1      cpu-migrations            #    0,000 K/sec                  
-         1.202.339      page-faults               #    0,239 M/sec                  
-    12.561.893.330      cycles                    #    2,494 GHz                    
-    22.545.121.433      instructions              #    1,79  insn per cycle         
-     1.557.473.920      branches                  #  309,236 M/sec                  
-         4.190.620      branch-misses             #    0,27% of all branches        
-    10.254.170.057      L1-dcache-loads           # 2035,960 M/sec                  
-       225.788.558      L1-dcache-load-misses     #    2,20% of all L1-dcache hits  
-         3.323.204      LLC-loads                 #    0,660 M/sec                  
-         1.106.508      LLC-load-misses           #   33,30% of all LL-cache hits   
-
-       5,036943782 seconds time elapsed
-
-
- Performance counter stats for './bench_float_gauss':
-
-       5043,423235      task-clock (msec)         #    1,000 CPUs utilized          
-                 7      context-switches          #    0,001 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-         1.202.338      page-faults               #    0,238 M/sec                  
-    12.579.130.369      cycles                    #    2,494 GHz                    
-    22.545.120.994      instructions              #    1,79  insn per cycle         
-     1.557.470.788      branches                  #  308,812 M/sec                  
-         4.171.001      branch-misses             #    0,27% of all branches        
-    10.254.169.704      L1-dcache-loads           # 2033,177 M/sec                  
-       228.766.104      L1-dcache-load-misses     #    2,23% of all L1-dcache hits  
-         3.329.497      LLC-loads                 #    0,660 M/sec                  
-         1.081.634      LLC-load-misses           #   32,49% of all LL-cache hits   
+         1.202.337      page-faults               #    0,322 M/sec                  
+    12.885.453.107      cycles                    #    3,453 GHz                    
+    22.532.284.391      instructions              #    1,75  insn per cycle         
+     1.556.746.481      branches                  #  417,166 M/sec                  
+         4.054.977      branch-misses             #    0,26% of all branches        
+    10.253.155.453      L1-dcache-loads           # 2747,568 M/sec                  
+       231.741.394      L1-dcache-load-misses     #    2,26% of all L1-dcache hits  
+         4.716.160      LLC-loads                 #    1,264 M/sec                  
+         2.023.790      LLC-load-misses           #   42,91% of all LL-cache hits   
 
-       5,043786589 seconds time elapsed
+       3,732038541 seconds time elapsed
 
 
  Performance counter stats for './bench_float_gauss':
 
-       5041,568624      task-clock (msec)         #    1,000 CPUs utilized          
-                16      context-switches          #    0,003 K/sec                  
-                 1      cpu-migrations            #    0,000 K/sec                  
-         1.202.337      page-faults               #    0,238 M/sec                  
-    12.574.371.403      cycles                    #    2,494 GHz                    
-    22.545.323.588      instructions              #    1,79  insn per cycle         
-     1.557.507.261      branches                  #  308,933 M/sec                  
-         4.172.904      branch-misses             #    0,27% of all branches        
-    10.254.225.082      L1-dcache-loads           # 2033,935 M/sec                  
-       226.766.148      L1-dcache-load-misses     #    2,21% of all L1-dcache hits  
-         3.443.866      LLC-loads                 #    0,683 M/sec                  
-         1.125.954      LLC-load-misses           #   32,69% of all LL-cache hits   
+       3695,272700      task-clock (msec)         #    1,000 CPUs utilized          
+                 4      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.339      page-faults               #    0,325 M/sec                  
+    12.885.365.666      cycles                    #    3,487 GHz                    
+    22.532.201.160      instructions              #    1,75  insn per cycle         
+     1.556.731.079      branches                  #  421,276 M/sec                  
+         4.080.254      branch-misses             #    0,26% of all branches        
+    10.253.126.684      L1-dcache-loads           # 2774,660 M/sec                  
+       228.977.484      L1-dcache-load-misses     #    2,23% of all L1-dcache hits  
+         4.760.203      LLC-loads                 #    1,288 M/sec                  
+         1.985.464      LLC-load-misses           #   41,71% of all LL-cache hits   
 
-       5,042132527 seconds time elapsed
+       3,695545566 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       3706,823048      task-clock (msec)         #    1,000 CPUs utilized          
+                 6      context-switches          #    0,002 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.339      page-faults               #    0,324 M/sec                  
+    12.904.806.597      cycles                    #    3,481 GHz                    
+    22.532.298.137      instructions              #    1,75  insn per cycle         
+     1.556.755.244      branches                  #  419,970 M/sec                  
+         4.071.726      branch-misses             #    0,26% of all branches        
+    10.253.161.588      L1-dcache-loads           # 2766,024 M/sec                  
+       230.970.756      L1-dcache-load-misses     #    2,25% of all L1-dcache hits  
+         4.624.068      LLC-loads                 #    1,247 M/sec                  
+         1.969.406      LLC-load-misses           #   42,59% of all LL-cache hits   
+
+       3,707148145 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       3724,016100      task-clock (msec)         #    1,000 CPUs utilized          
+                 6      context-switches          #    0,002 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.340      page-faults               #    0,323 M/sec                  
+    12.981.891.488      cycles                    #    3,486 GHz                    
+    22.532.274.791      instructions              #    1,74  insn per cycle         
+     1.556.743.481      branches                  #  418,028 M/sec                  
+         4.352.022      branch-misses             #    0,28% of all branches        
+    10.253.149.502      L1-dcache-loads           # 2753,251 M/sec                  
+       228.088.635      L1-dcache-load-misses     #    2,22% of all L1-dcache hits  
+         4.958.263      LLC-loads                 #    1,331 M/sec                  
+         2.011.379      LLC-load-misses           #   40,57% of all LL-cache hits   
+
+       3,724310876 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       3699,334794      task-clock (msec)         #    1,000 CPUs utilized          
+                 7      context-switches          #    0,002 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.340      page-faults               #    0,325 M/sec                  
+    12.899.361.140      cycles                    #    3,487 GHz                    
+    22.532.277.322      instructions              #    1,75  insn per cycle         
+     1.556.747.004      branches                  #  420,818 M/sec                  
+         4.071.079      branch-misses             #    0,26% of all branches        
+    10.253.151.806      L1-dcache-loads           # 2771,620 M/sec                  
+       229.982.258      L1-dcache-load-misses     #    2,24% of all L1-dcache hits  
+         4.751.773      LLC-loads                 #    1,284 M/sec                  
+         2.020.574      LLC-load-misses           #   42,52% of all LL-cache hits   
+
+       3,699706770 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       3697,852156      task-clock (msec)         #    1,000 CPUs utilized          
+                 7      context-switches          #    0,002 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.340      page-faults               #    0,325 M/sec                  
+    12.897.164.521      cycles                    #    3,488 GHz                    
+    22.532.912.983      instructions              #    1,75  insn per cycle         
+     1.556.854.314      branches                  #  421,016 M/sec                  
+         4.097.460      branch-misses             #    0,26% of all branches        
+    10.253.352.031      L1-dcache-loads           # 2772,786 M/sec                  
+       231.414.072      L1-dcache-load-misses     #    2,26% of all L1-dcache hits  
+         4.717.011      LLC-loads                 #    1,276 M/sec                  
+         1.988.222      LLC-load-misses           #   42,15% of all LL-cache hits   
+
+       3,698169392 seconds time elapsed
+
+
+ Performance counter stats for './bench_float_gauss':
+
+       3704,607940      task-clock (msec)         #    1,000 CPUs utilized          
+                 4      context-switches          #    0,001 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+         1.202.337      page-faults               #    0,325 M/sec                  
+    12.904.647.509      cycles                    #    3,483 GHz                    
+    22.532.274.016      instructions              #    1,75  insn per cycle         
+     1.556.748.774      branches                  #  420,220 M/sec                  
+         4.066.374      branch-misses             #    0,26% of all branches        
+    10.253.150.815      L1-dcache-loads           # 2767,675 M/sec                  
+       227.724.854      L1-dcache-load-misses     #    2,22% of all L1-dcache hits  
+         4.571.693      LLC-loads                 #    1,234 M/sec                  
+         1.981.806      LLC-load-misses           #   43,35% of all LL-cache hits   
+
+       3,704875077 seconds time elapsed
 

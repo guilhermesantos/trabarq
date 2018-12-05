@@ -1,180 +1,180 @@
 
  Performance counter stats for './bench_branch_sort':
 
-         12,580421      task-clock (msec)         #    0,982 CPUs utilized          
-                 0      context-switches          #    0,000 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-                81      page-faults               #    0,006 M/sec                  
-        31.369.514      cycles                    #    2,494 GHz                    
-        62.632.333      instructions              #    2,00  insn per cycle         
-         6.405.446      branches                  #  509,160 M/sec                  
-           160.348      branch-misses             #    2,50% of all branches        
-        29.294.398      L1-dcache-loads           # 2328,571 M/sec                  
-            24.890      L1-dcache-load-misses     #    0,08% of all L1-dcache hits  
-             3.026      LLC-loads                 #    0,241 M/sec                  
-               924      LLC-load-misses           #   30,54% of all LL-cache hits   
+          9,897961      task-clock (msec)         #    0,971 CPUs utilized          
+                 1      context-switches          #    0,101 K/sec                  
+                 1      cpu-migrations            #    0,101 K/sec                  
+                76      page-faults               #    0,008 M/sec                  
+        31.594.495      cycles                    #    3,192 GHz                    
+        62.613.392      instructions              #    1,98  insn per cycle         
+         6.402.206      branches                  #  646,821 M/sec                  
+           161.183      branch-misses             #    2,52% of all branches        
+        29.289.808      L1-dcache-loads           # 2959,176 M/sec                  
+            25.759      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
+             3.807      LLC-loads                 #    0,385 M/sec                  
+             1.214      LLC-load-misses           #   31,89% of all LL-cache hits   
 
-       0,012815557 seconds time elapsed
-
-
- Performance counter stats for './bench_branch_sort':
-
-         12,588320      task-clock (msec)         #    0,984 CPUs utilized          
-                 0      context-switches          #    0,000 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-                78      page-faults               #    0,006 M/sec                  
-        31.389.054      cycles                    #    2,494 GHz                    
-        62.620.077      instructions              #    1,99  insn per cycle         
-         6.403.354      branches                  #  508,674 M/sec                  
-           160.514      branch-misses             #    2,51% of all branches        
-        29.291.536      L1-dcache-loads           # 2326,882 M/sec                  
-            25.387      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
-             3.256      LLC-loads                 #    0,259 M/sec                  
-               638      LLC-load-misses           #   19,59% of all LL-cache hits   
-
-       0,012793822 seconds time elapsed
+       0,010198629 seconds time elapsed
 
 
  Performance counter stats for './bench_branch_sort':
 
-         12,606797      task-clock (msec)         #    0,982 CPUs utilized          
+          9,899823      task-clock (msec)         #    0,979 CPUs utilized          
                  0      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                76      page-faults               #    0,006 M/sec                  
-        31.435.140      cycles                    #    2,494 GHz                    
-        62.602.750      instructions              #    1,99  insn per cycle         
-         6.400.089      branches                  #  507,670 M/sec                  
-           160.148      branch-misses             #    2,50% of all branches        
-        29.286.813      L1-dcache-loads           # 2323,097 M/sec                  
-            24.887      L1-dcache-load-misses     #    0,08% of all L1-dcache hits  
-             3.375      LLC-loads                 #    0,268 M/sec                  
-               852      LLC-load-misses           #   25,24% of all LL-cache hits   
+                76      page-faults               #    0,008 M/sec                  
+        31.378.083      cycles                    #    3,170 GHz                    
+        62.605.788      instructions              #    2,00  insn per cycle         
+         6.400.143      branches                  #  646,491 M/sec                  
+           159.395      branch-misses             #    2,49% of all branches        
+        29.285.549      L1-dcache-loads           # 2958,189 M/sec                  
+            24.794      L1-dcache-load-misses     #    0,08% of all L1-dcache hits  
+             3.247      LLC-loads                 #    0,328 M/sec                  
+               647      LLC-load-misses           #   19,93% of all LL-cache hits   
 
-       0,012840821 seconds time elapsed
+       0,010109010 seconds time elapsed
 
 
  Performance counter stats for './bench_branch_sort':
 
-         12,578247      task-clock (msec)         #    0,982 CPUs utilized          
+          9,877013      task-clock (msec)         #    0,981 CPUs utilized          
                  0      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                75      page-faults               #    0,006 M/sec                  
-        31.363.219      cycles                    #    2,493 GHz                    
-        62.603.177      instructions              #    2,00  insn per cycle         
-         6.399.911      branches                  #  508,808 M/sec                  
-           161.735      branch-misses             #    2,53% of all branches        
-        29.285.108      L1-dcache-loads           # 2328,234 M/sec                  
-            25.314      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
-             3.253      LLC-loads                 #    0,259 M/sec                  
-               674      LLC-load-misses           #   20,72% of all LL-cache hits   
+                75      page-faults               #    0,008 M/sec                  
+        31.283.271      cycles                    #    3,167 GHz                    
+        62.587.641      instructions              #    2,00  insn per cycle         
+         6.397.545      branches                  #  647,721 M/sec                  
+           159.950      branch-misses             #    2,50% of all branches        
+        29.282.805      L1-dcache-loads           # 2964,743 M/sec                  
+            24.340      L1-dcache-load-misses     #    0,08% of all L1-dcache hits  
+             3.282      LLC-loads                 #    0,332 M/sec                  
+               610      LLC-load-misses           #   18,59% of all LL-cache hits   
 
-       0,012806197 seconds time elapsed
+       0,010073077 seconds time elapsed
 
 
  Performance counter stats for './bench_branch_sort':
 
-         12,566503      task-clock (msec)         #    0,982 CPUs utilized          
+          9,945115      task-clock (msec)         #    0,980 CPUs utilized          
                  0      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                77      page-faults               #    0,006 M/sec                  
-        31.333.624      cycles                    #    2,493 GHz                    
-        62.620.906      instructions              #    2,00  insn per cycle         
-         6.403.230      branches                  #  509,547 M/sec                  
-           159.619      branch-misses             #    2,49% of all branches        
-        29.290.613      L1-dcache-loads           # 2330,848 M/sec                  
-            25.330      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
-             3.421      LLC-loads                 #    0,272 M/sec                  
-               551      LLC-load-misses           #   16,11% of all LL-cache hits   
+                80      page-faults               #    0,008 M/sec                  
+        31.439.734      cycles                    #    3,161 GHz                    
+        62.631.171      instructions              #    1,99  insn per cycle         
+         6.405.361      branches                  #  644,071 M/sec                  
+           159.620      branch-misses             #    2,49% of all branches        
+        29.293.163      L1-dcache-loads           # 2945,483 M/sec                  
+            25.048      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
+             3.270      LLC-loads                 #    0,329 M/sec                  
+               571      LLC-load-misses           #   17,46% of all LL-cache hits   
 
-       0,012795618 seconds time elapsed
+       0,010148336 seconds time elapsed
 
 
  Performance counter stats for './bench_branch_sort':
 
-         12,551067      task-clock (msec)         #    0,983 CPUs utilized          
+          9,905740      task-clock (msec)         #    0,981 CPUs utilized          
                  0      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                77      page-faults               #    0,006 M/sec                  
-        31.296.068      cycles                    #    2,493 GHz                    
-        62.594.866      instructions              #    2,00  insn per cycle         
-         6.398.847      branches                  #  509,825 M/sec                  
-           160.287      branch-misses             #    2,50% of all branches        
-        29.285.673      L1-dcache-loads           # 2333,321 M/sec                  
-            24.966      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
-             3.282      LLC-loads                 #    0,261 M/sec                  
-               555      LLC-load-misses           #   16,91% of all LL-cache hits   
+                79      page-faults               #    0,008 M/sec                  
+        31.377.954      cycles                    #    3,168 GHz                    
+        62.609.994      instructions              #    2,00  insn per cycle         
+         6.401.734      branches                  #  646,265 M/sec                  
+           160.256      branch-misses             #    2,50% of all branches        
+        29.289.088      L1-dcache-loads           # 2956,779 M/sec                  
+            24.872      L1-dcache-load-misses     #    0,08% of all L1-dcache hits  
+             3.078      LLC-loads                 #    0,311 M/sec                  
+               522      LLC-load-misses           #   16,96% of all LL-cache hits   
 
-       0,012766351 seconds time elapsed
+       0,010102017 seconds time elapsed
 
 
  Performance counter stats for './bench_branch_sort':
 
-         12,552106      task-clock (msec)         #    0,983 CPUs utilized          
+          9,887222      task-clock (msec)         #    0,979 CPUs utilized          
                  0      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                79      page-faults               #    0,006 M/sec                  
-        31.298.656      cycles                    #    2,493 GHz                    
-        62.626.116      instructions              #    2,00  insn per cycle         
-         6.404.367      branches                  #  510,223 M/sec                  
-           161.060      branch-misses             #    2,51% of all branches        
-        29.292.167      L1-dcache-loads           # 2333,646 M/sec                  
-            25.179      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
-             3.211      LLC-loads                 #    0,256 M/sec                  
-               540      LLC-load-misses           #   16,82% of all LL-cache hits   
+                75      page-faults               #    0,008 M/sec                  
+        31.325.268      cycles                    #    3,168 GHz                    
+        62.591.783      instructions              #    2,00  insn per cycle         
+         6.398.053      branches                  #  647,103 M/sec                  
+           159.907      branch-misses             #    2,50% of all branches        
+        29.283.027      L1-dcache-loads           # 2961,704 M/sec                  
+            24.552      L1-dcache-load-misses     #    0,08% of all L1-dcache hits  
+             3.220      LLC-loads                 #    0,326 M/sec                  
+               688      LLC-load-misses           #   21,37% of all LL-cache hits   
 
-       0,012773090 seconds time elapsed
+       0,010096844 seconds time elapsed
 
 
  Performance counter stats for './bench_branch_sort':
 
-         12,572835      task-clock (msec)         #    0,983 CPUs utilized          
+         10,149869      task-clock (msec)         #    0,977 CPUs utilized          
                  0      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                78      page-faults               #    0,006 M/sec                  
-        31.350.447      cycles                    #    2,494 GHz                    
-        62.628.353      instructions              #    2,00  insn per cycle         
-         6.404.360      branches                  #  509,381 M/sec                  
-           160.188      branch-misses             #    2,50% of all branches        
-        29.291.666      L1-dcache-loads           # 2329,758 M/sec                  
-            25.167      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
-             3.342      LLC-loads                 #    0,266 M/sec                  
-               566      LLC-load-misses           #   16,94% of all LL-cache hits   
+                76      page-faults               #    0,007 M/sec                  
+        31.381.788      cycles                    #    3,092 GHz                    
+        62.608.331      instructions              #    2,00  insn per cycle         
+         6.401.039      branches                  #  630,652 M/sec                  
+           160.241      branch-misses             #    2,50% of all branches        
+        29.287.169      L1-dcache-loads           # 2885,473 M/sec                  
+            24.930      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
+             3.300      LLC-loads                 #    0,325 M/sec                  
+             1.002      LLC-load-misses           #   30,36% of all LL-cache hits   
 
-       0,012790451 seconds time elapsed
+       0,010393088 seconds time elapsed
 
 
  Performance counter stats for './bench_branch_sort':
 
-         12,552605      task-clock (msec)         #    0,983 CPUs utilized          
+          9,932349      task-clock (msec)         #    0,980 CPUs utilized          
                  0      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                78      page-faults               #    0,006 M/sec                  
-        31.300.014      cycles                    #    2,494 GHz                    
-        62.613.331      instructions              #    2,00  insn per cycle         
-         6.402.349      branches                  #  510,041 M/sec                  
-           159.756      branch-misses             #    2,50% of all branches        
-        29.289.659      L1-dcache-loads           # 2333,353 M/sec                  
-            24.828      L1-dcache-load-misses     #    0,08% of all L1-dcache hits  
-             3.240      LLC-loads                 #    0,258 M/sec                  
-               518      LLC-load-misses           #   15,99% of all LL-cache hits   
+                76      page-faults               #    0,008 M/sec                  
+        31.353.911      cycles                    #    3,157 GHz                    
+        62.601.975      instructions              #    2,00  insn per cycle         
+         6.399.996      branches                  #  644,359 M/sec                  
+           159.822      branch-misses             #    2,50% of all branches        
+        29.286.501      L1-dcache-loads           # 2948,598 M/sec                  
+            25.143      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
+             3.342      LLC-loads                 #    0,336 M/sec                  
+               621      LLC-load-misses           #   18,58% of all LL-cache hits   
 
-       0,012773695 seconds time elapsed
+       0,010132626 seconds time elapsed
 
 
  Performance counter stats for './bench_branch_sort':
 
-         12,561105      task-clock (msec)         #    0,983 CPUs utilized          
+          9,961555      task-clock (msec)         #    0,980 CPUs utilized          
                  0      context-switches          #    0,000 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-                75      page-faults               #    0,006 M/sec                  
-        31.320.908      cycles                    #    2,493 GHz                    
-        62.595.118      instructions              #    2,00  insn per cycle         
-         6.398.705      branches                  #  509,406 M/sec                  
-           160.636      branch-misses             #    2,51% of all branches        
-        29.284.326      L1-dcache-loads           # 2331,350 M/sec                  
-            25.051      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
-             3.194      LLC-loads                 #    0,254 M/sec                  
-               650      LLC-load-misses           #   20,35% of all LL-cache hits   
+                75      page-faults               #    0,008 M/sec                  
+        31.466.002      cycles                    #    3,159 GHz                    
+        62.599.293      instructions              #    1,99  insn per cycle         
+         6.399.341      branches                  #  642,404 M/sec                  
+           160.257      branch-misses             #    2,50% of all branches        
+        29.285.415      L1-dcache-loads           # 2939,844 M/sec                  
+            24.690      L1-dcache-load-misses     #    0,08% of all L1-dcache hits  
+             3.251      LLC-loads                 #    0,326 M/sec                  
+               830      LLC-load-misses           #   25,53% of all LL-cache hits   
 
-       0,012781116 seconds time elapsed
+       0,010168410 seconds time elapsed
+
+
+ Performance counter stats for './bench_branch_sort':
+
+          9,788695      task-clock (msec)         #    0,979 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                77      page-faults               #    0,008 M/sec                  
+        31.353.425      cycles                    #    3,203 GHz                    
+        62.615.598      instructions              #    2,00  insn per cycle         
+         6.402.033      branches                  #  654,023 M/sec                  
+           160.257      branch-misses             #    2,50% of all branches        
+        29.288.210      L1-dcache-loads           # 2992,044 M/sec                  
+            25.040      L1-dcache-load-misses     #    0,09% of all L1-dcache hits  
+             3.304      LLC-loads                 #    0,338 M/sec                  
+               594      LLC-load-misses           #   17,98% of all LL-cache hits   
+
+       0,009993597 seconds time elapsed
 
