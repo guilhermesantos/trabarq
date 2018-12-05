@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define N 32768
+#define N 10000
 
 int main(int argc, char *argv[]) {
     int array[N];
@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
         }
     }
     for (unsigned i = 0; i < N; i++) {
-        printf("%d", array[i]);
+//        printf("%d", array[i]);
     }
     return 0;
 }
